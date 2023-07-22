@@ -5,7 +5,7 @@
     "Model Number": "DB_25D",
     "FW Version": "909E.D66.EARSAB.018.May 10 2023",
     "Frequency range": "F136-480",
-    "Update date": "16/07/2023 13:22",
+    "Update date": "19/07/2023 15:36",
     "Firmware ID": "DRS-300UV",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -182,9 +182,9 @@
         "Zone ID": 65535,
         "Channel ID": 65535,
         "Call Type": "PRIVATE",
-        "PTT": "OFF",
+        "PTT": "ON",
         "Report Slot": "CURRENT",
-        "APRS TG": 301999
+        "APRS TG": 234999
       },
       {
         "Zone ID": 65535,
@@ -514,6 +514,12 @@
       "Name": "OK DMR",
       "DMR ID": 3195893,
       "Type": "Group"
+    },
+    {
+      "ID": 25,
+      "Name": "Digi APRS",
+      "DMR ID": 234999,
+      "Type": "Private"
     }
   ],
   "Scan lists": [
@@ -1329,6 +1335,36 @@
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 20,
+          "Type": "DIGITAL",
+          "Name": "RAB DiAPRS",
+          "Rx Freq": 444850000,
+          "Tx Freq": 449850000,
+          "Tx Power": "HIGH",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS1",
+          "TS Tx": "TS1",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 0,
+          "Scan List ID": 0,
+          "Default Contact ID": 25,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 1,
           "Relay Monitor": "OFF",
           "Relay Mode": "OFF"
         }
@@ -4169,9 +4205,9 @@
           "TX CC": 1,
           "MSG Type": "UNCONFIRMED",
           "TX Policy": "IMPOLITE",
-          "Group call list": 18,
+          "Group call list": 0,
           "Scan List ID": 0,
-          "Default Contact ID": 23,
+          "Default Contact ID": 25,
           "EAS": "OFF",
           "Bandwidth": "12.5KHz",
           "Tone Type Tx": "OFF",

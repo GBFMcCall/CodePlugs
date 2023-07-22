@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
     "Frequency range": "F136-480",
-    "Update date": "08/07/2023 09:51",
+    "Update date": "16/07/2023 14:43",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -184,7 +184,7 @@
         "Call Type": "PRIVATE",
         "PTT": "ON",
         "Report Slot": "CURRENT",
-        "APRS TG": 310999
+        "APRS TG": 234999
       },
       {
         "Zone ID": 65535,
@@ -269,7 +269,7 @@
     "Mandown Duration": 0
   },
   "Quick messages": [
-    "",
+    "WXBOT",
     "",
     "",
     "",
@@ -520,6 +520,12 @@
       "Name": "OK DMR",
       "DMR ID": 3195893,
       "Type": "Group"
+    },
+    {
+      "ID": 26,
+      "Name": "Dig APRS",
+      "DMR ID": 234999,
+      "Type": "Private"
     }
   ],
   "Scan lists": [
@@ -3216,6 +3222,36 @@
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 20,
+          "Type": "DIGITAL",
+          "Name": "Pi APRS",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 0,
+          "Scan List ID": 0,
+          "Default Contact ID": 26,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 1,
           "Relay Monitor": "OFF",
           "Relay Mode": "OFF"
         }
