@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
     "Frequency range": "F136-480",
-    "Update date": "16/07/2023 14:43",
+    "Update date": "23/07/2023 09:54",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -526,6 +526,12 @@
       "Name": "Dig APRS",
       "DMR ID": 234999,
       "Type": "Private"
+    },
+    {
+      "ID": 27,
+      "Name": "AmericaLnk",
+      "DMR ID": 31656,
+      "Type": "Group"
     }
   ],
   "Scan lists": [
@@ -538,18 +544,6 @@
       "Selected channels": [
         {
           "Group": 2,
-          "Channel": 3
-        },
-        {
-          "Group": 2,
-          "Channel": 4
-        },
-        {
-          "Group": 2,
-          "Channel": 5
-        },
-        {
-          "Group": 2,
           "Channel": 6
         },
         {
@@ -558,11 +552,15 @@
         },
         {
           "Group": 2,
-          "Channel": 10
+          "Channel": 3
         },
         {
           "Group": 2,
-          "Channel": 11
+          "Channel": 8
+        },
+        {
+          "Group": 2,
+          "Channel": 9
         },
         {
           "Group": 2,
@@ -574,15 +572,19 @@
         },
         {
           "Group": 2,
-          "Channel": 14
-        },
-        {
-          "Group": 2,
           "Channel": 1
         },
         {
           "Group": 2,
+          "Channel": 14
+        },
+        {
+          "Group": 2,
           "Channel": 15
+        },
+        {
+          "Group": 2,
+          "Channel": 4
         },
         {
           "Group": 2,
@@ -602,6 +604,10 @@
         },
         {
           "Group": 2,
+          "Channel": 2
+        },
+        {
+          "Group": 2,
           "Channel": 20
         }
       ]
@@ -615,18 +621,6 @@
       "Selected channels": [
         {
           "Group": 1,
-          "Channel": 3
-        },
-        {
-          "Group": 1,
-          "Channel": 4
-        },
-        {
-          "Group": 1,
-          "Channel": 5
-        },
-        {
-          "Group": 1,
           "Channel": 6
         },
         {
@@ -635,7 +629,7 @@
         },
         {
           "Group": 1,
-          "Channel": 2
+          "Channel": 3
         },
         {
           "Group": 1,
@@ -644,6 +638,10 @@
         {
           "Group": 1,
           "Channel": 9
+        },
+        {
+          "Group": 1,
+          "Channel": 5
         },
         {
           "Group": 1,
@@ -663,15 +661,19 @@
         },
         {
           "Group": 1,
-          "Channel": 14
-        },
-        {
-          "Group": 1,
           "Channel": 1
         },
         {
           "Group": 1,
+          "Channel": 14
+        },
+        {
+          "Group": 1,
           "Channel": 15
+        },
+        {
+          "Group": 1,
+          "Channel": 4
         },
         {
           "Group": 1,
@@ -680,6 +682,10 @@
         {
           "Group": 1,
           "Channel": 17
+        },
+        {
+          "Group": 1,
+          "Channel": 18
         }
       ]
     }
@@ -2658,13 +2664,13 @@
         {
           "ID": 1,
           "Type": "DIGITAL",
-          "Name": "PI Echo",
+          "Name": "Pi OKWtr",
           "Rx Freq": 449000000,
           "Tx Freq": 438500000,
           "Tx Power": "LOW",
           "Rx only": "OFF",
-          "Alarm": "ON",
-          "Prompt": "ON",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
           "PCT": "PATCS",
           "TS Rx": "TS2",
           "TS Tx": "TS2",
@@ -2674,7 +2680,7 @@
           "TX Policy": "IMPOLITE",
           "Group call list": 1,
           "Scan List ID": 0,
-          "Default Contact ID": 1,
+          "Default Contact ID": 13,
           "EAS": "OFF",
           "Bandwidth": "12.5KHz",
           "Tone Type Tx": "OFF",
@@ -2688,13 +2694,13 @@
         {
           "ID": 2,
           "Type": "DIGITAL",
-          "Name": "PI NA",
+          "Name": "Pi OK DMR",
           "Rx Freq": 449000000,
           "Tx Freq": 438500000,
-          "Tx Power": "LOW",
+          "Tx Power": "HIGH",
           "Rx only": "OFF",
-          "Alarm": "ON",
-          "Prompt": "ON",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
           "PCT": "PATCS",
           "TS Rx": "TS2",
           "TS Tx": "TS2",
@@ -2702,9 +2708,9 @@
           "TX CC": 1,
           "MSG Type": "UNCONFIRMED",
           "TX Policy": "IMPOLITE",
-          "Group call list": 1,
+          "Group call list": 21,
           "Scan List ID": 0,
-          "Default Contact ID": 3,
+          "Default Contact ID": 25,
           "EAS": "OFF",
           "Bandwidth": "12.5KHz",
           "Tone Type Tx": "OFF",
@@ -2717,66 +2723,6 @@
         },
         {
           "ID": 3,
-          "Type": "DIGITAL",
-          "Name": "PI Reddit",
-          "Rx Freq": 449000000,
-          "Tx Freq": 438500000,
-          "Tx Power": "LOW",
-          "Rx only": "OFF",
-          "Alarm": "ON",
-          "Prompt": "ON",
-          "PCT": "PATCS",
-          "TS Rx": "TS2",
-          "TS Tx": "TS2",
-          "RX CC": 1,
-          "TX CC": 1,
-          "MSG Type": "UNCONFIRMED",
-          "TX Policy": "IMPOLITE",
-          "Group call list": 1,
-          "Scan List ID": 0,
-          "Default Contact ID": 11,
-          "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
-          "Tone Type Tx": "OFF",
-          "Tone Tx": "0",
-          "Tone Type Rx": "OFF",
-          "Tone Rx": "0",
-          "APRS Channel": 0,
-          "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
-        },
-        {
-          "ID": 4,
-          "Type": "DIGITAL",
-          "Name": "PI USBrdg",
-          "Rx Freq": 449000000,
-          "Tx Freq": 438500000,
-          "Tx Power": "LOW",
-          "Rx only": "OFF",
-          "Alarm": "ON",
-          "Prompt": "ON",
-          "PCT": "PATCS",
-          "TS Rx": "TS2",
-          "TS Tx": "TS2",
-          "RX CC": 1,
-          "TX CC": 1,
-          "MSG Type": "UNCONFIRMED",
-          "TX Policy": "IMPOLITE",
-          "Group call list": 1,
-          "Scan List ID": 0,
-          "Default Contact ID": 12,
-          "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
-          "Tone Type Tx": "OFF",
-          "Tone Tx": "0",
-          "Tone Type Rx": "OFF",
-          "Tone Rx": "0",
-          "APRS Channel": 0,
-          "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
-        },
-        {
-          "ID": 5,
           "Type": "DIGITAL",
           "Name": "PI OK",
           "Rx Freq": 449000000,
@@ -2806,7 +2752,127 @@
           "Relay Mode": "OFF"
         },
         {
+          "ID": 4,
+          "Type": "DIGITAL",
+          "Name": "PI Echo",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "ON",
+          "Prompt": "ON",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 1,
+          "Scan List ID": 0,
+          "Default Contact ID": 1,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 5,
+          "Type": "DIGITAL",
+          "Name": "PI NA",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "ON",
+          "Prompt": "ON",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 1,
+          "Scan List ID": 0,
+          "Default Contact ID": 3,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
           "ID": 6,
+          "Type": "DIGITAL",
+          "Name": "PI Reddit",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "ON",
+          "Prompt": "ON",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 1,
+          "Scan List ID": 0,
+          "Default Contact ID": 11,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 7,
+          "Type": "DIGITAL",
+          "Name": "PI USBrdg",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "ON",
+          "Prompt": "ON",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 1,
+          "Scan List ID": 0,
+          "Default Contact ID": 12,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 8,
           "Type": "DIGITAL",
           "Name": "PI DSCNT",
           "Rx Freq": 449000000,
@@ -2836,7 +2902,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 7,
+          "ID": 9,
           "Type": "DIGITAL",
           "Name": "PI Parrot",
           "Rx Freq": 449000000,
@@ -2866,7 +2932,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 8,
+          "ID": 10,
           "Type": "DIGITAL",
           "Name": "Pi OKE",
           "Rx Freq": 449000000,
@@ -2896,7 +2962,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 9,
+          "ID": 11,
           "Type": "DIGITAL",
           "Name": "Pi NATac1",
           "Rx Freq": 449000000,
@@ -2926,7 +2992,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 10,
+          "ID": 12,
           "Type": "DIGITAL",
           "Name": "Pi NATac2",
           "Rx Freq": 449000000,
@@ -2956,7 +3022,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 11,
+          "ID": 13,
           "Type": "DIGITAL",
           "Name": "Pi NATac3",
           "Rx Freq": 449000000,
@@ -2986,37 +3052,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 12,
-          "Type": "DIGITAL",
-          "Name": "Pi OKWtr",
-          "Rx Freq": 449000000,
-          "Tx Freq": 438500000,
-          "Tx Power": "LOW",
-          "Rx only": "OFF",
-          "Alarm": "OFF",
-          "Prompt": "OFF",
-          "PCT": "PATCS",
-          "TS Rx": "TS2",
-          "TS Tx": "TS2",
-          "RX CC": 1,
-          "TX CC": 1,
-          "MSG Type": "UNCONFIRMED",
-          "TX Policy": "IMPOLITE",
-          "Group call list": 1,
-          "Scan List ID": 0,
-          "Default Contact ID": 13,
-          "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
-          "Tone Type Tx": "OFF",
-          "Tone Tx": "0",
-          "Tone Type Rx": "OFF",
-          "Tone Rx": "0",
-          "APRS Channel": 0,
-          "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
-        },
-        {
-          "ID": 13,
+          "ID": 14,
           "Type": "DIGITAL",
           "Name": "Pi DMR",
           "Rx Freq": 449000000,
@@ -3046,7 +3082,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 14,
+          "ID": 15,
           "Type": "DIGITAL",
           "Name": "Pi EmCom",
           "Rx Freq": 449000000,
@@ -3076,7 +3112,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 15,
+          "ID": 16,
           "Type": "DIGITAL",
           "Name": "Pi RedAm",
           "Rx Freq": 449000000,
@@ -3106,7 +3142,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 16,
+          "ID": 17,
           "Type": "DIGITAL",
           "Name": "Pi ARES",
           "Rx Freq": 449000000,
@@ -3136,7 +3172,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 17,
+          "ID": 18,
           "Type": "DIGITAL",
           "Name": "PI OKTlk",
           "Rx Freq": 449000000,
@@ -3166,7 +3202,7 @@
           "Relay Mode": "OFF"
         },
         {
-          "ID": 18,
+          "ID": 19,
           "Type": "DIGITAL",
           "Name": "Pi APRS",
           "Rx Freq": 449000000,
@@ -3192,36 +3228,6 @@
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 1,
-          "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
-        },
-        {
-          "ID": 19,
-          "Type": "DIGITAL",
-          "Name": "Pi OK DMR",
-          "Rx Freq": 449000000,
-          "Tx Freq": 438500000,
-          "Tx Power": "HIGH",
-          "Rx only": "OFF",
-          "Alarm": "OFF",
-          "Prompt": "OFF",
-          "PCT": "PATCS",
-          "TS Rx": "TS2",
-          "TS Tx": "TS2",
-          "RX CC": 1,
-          "TX CC": 1,
-          "MSG Type": "UNCONFIRMED",
-          "TX Policy": "IMPOLITE",
-          "Group call list": 21,
-          "Scan List ID": 0,
-          "Default Contact ID": 25,
-          "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
-          "Tone Type Tx": "OFF",
-          "Tone Tx": "0",
-          "Tone Type Rx": "OFF",
-          "Tone Rx": "0",
-          "APRS Channel": 0,
           "Relay Monitor": "OFF",
           "Relay Mode": "OFF"
         },
@@ -3252,6 +3258,36 @@
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 1,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF"
+        },
+        {
+          "ID": 21,
+          "Type": "DIGITAL",
+          "Name": "Pi AmLink",
+          "Rx Freq": 449000000,
+          "Tx Freq": 438500000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS2",
+          "TS Tx": "TS2",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 0,
+          "Scan List ID": 0,
+          "Default Contact ID": 27,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
           "Relay Monitor": "OFF",
           "Relay Mode": "OFF"
         }
