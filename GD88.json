@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
     "Frequency range": "F136-480",
-    "Update date": "31/07/2023 20:07",
+    "Update date": "28/10/2023 15:03",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -1482,7 +1482,7 @@
         {
           "ID": 3,
           "Type": "ANALOG",
-          "Name": "Prepper",
+          "Name": "2 M Alt",
           "Rx Freq": 146420000,
           "Tx Freq": 146420000,
           "Tx Power": "HIGH",
@@ -1512,7 +1512,7 @@
         {
           "ID": 4,
           "Type": "ANALOG",
-          "Name": "Survival",
+          "Name": "2 M Alt2",
           "Rx Freq": 146550000,
           "Tx Freq": 146550000,
           "Tx Power": "HIGH",
@@ -1542,7 +1542,7 @@
         {
           "ID": 5,
           "Type": "ANALOG",
-          "Name": "Prepper70",
+          "Name": "70 CM Alt",
           "Rx Freq": 446030000,
           "Tx Freq": 446030000,
           "Tx Power": "HIGH",
