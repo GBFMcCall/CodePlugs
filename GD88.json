@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
     "Frequency range": "F136-480",
-    "Update date": "06/11/2023 20:14",
+    "Update date": "20/12/2023 16:32",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -846,7 +846,7 @@
         {
           "ID": 1,
           "Type": "DIGITAL",
-          "Name": "RAB OKW",
+          "Name": "RAB OKWtr",
           "Rx Freq": 444850000,
           "Tx Freq": 449850000,
           "Tx Power": "HIGH",
