@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
     "Frequency range": "F136-480",
-    "Update date": "22/02/2024 15:49",
+    "Update date": "27/02/2024 13:46",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -151,9 +151,9 @@
   },
   "Mic gain": {
     "Mic gain 1": "On",
-    "Mic gain 1 setting": 0,
+    "Mic gain 1 setting": 12,
     "Mic gain 2": "On",
-    "Mic gain 2 setting": 0
+    "Mic gain 2 setting": 12
   },
   "APRS": {
     "Manual TX interval": 20,
