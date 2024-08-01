@@ -3,9 +3,9 @@
     "Factory Number": "S880B4",
     "Serial Number": "9E.D64.EHRSAB.00",
     "Model Number": "5.Jun 30 2022F1",
-    "FW Version": "B49E.D66.EOPSAB.015.Jun 24 2023",
+    "FW Version": "B49E.D66.EOPSAB.017.May 10 2024",
     "Frequency range": "F136-480",
-    "Update date": "27/02/2024 13:46",
+    "Update date": "01/08/2024 13:48",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -268,92 +268,15 @@
     "Mandown Angle": 0,
     "Mandown Duration": 0
   },
+  "Encryption": {
+    "Encryption Level": "OFF",
+    "Encryption Data": []
+  },
+  "AESEncryption": {
+    "AES Encryption Data": []
+  },
   "Quick messages": [
     "WXBOT",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
     "",
     "",
     "",
@@ -871,7 +794,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -901,7 +825,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -931,7 +856,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -961,7 +887,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -991,7 +918,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -1021,7 +949,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -1051,7 +980,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -1081,7 +1011,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -1111,7 +1042,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -1141,7 +1073,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -1171,7 +1104,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -1201,7 +1135,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -1231,7 +1166,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -1261,7 +1197,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -1291,7 +1228,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -1321,7 +1259,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 17,
@@ -1351,7 +1290,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 18,
@@ -1381,7 +1321,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 19,
@@ -1411,7 +1352,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -1447,7 +1389,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -1477,7 +1420,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -1507,7 +1451,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -1537,7 +1482,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -1567,7 +1513,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -1597,7 +1544,8 @@
           "Tone Rx": "100.0",
           "APRS Channel": 9,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -1620,14 +1568,15 @@
           "Scan List ID": 0,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "OFF",
           "Tone Tx": "0",
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 9,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -1650,14 +1599,15 @@
           "Scan List ID": 0,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "62.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "62.5",
           "APRS Channel": 9,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -1680,14 +1630,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -1710,14 +1661,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -1740,14 +1692,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "OFF",
           "Tone Tx": "0",
           "Tone Type Rx": "OFF",
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -1770,14 +1723,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -1800,14 +1754,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "103.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "103.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -1830,14 +1785,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -1860,14 +1816,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -1890,14 +1847,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 17,
@@ -1920,14 +1878,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 18,
@@ -1950,14 +1909,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 19,
@@ -1980,14 +1940,15 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 20,
@@ -2010,14 +1971,46 @@
           "Scan List ID": 1,
           "Default Contact ID": 0,
           "EAS": "OFF",
-          "Bandwidth": "12.5KHz",
+          "Bandwidth": "25KHz",
           "Tone Type Tx": "CTCSS",
           "Tone Tx": "88.5",
           "Tone Type Rx": "CTCSS",
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
+        },
+        {
+          "ID": 21,
+          "Type": "ANALOG",
+          "Name": "W5IAS",
+          "Rx Freq": 145110000,
+          "Tx Freq": 144510000,
+          "Tx Power": "HIGH",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS1",
+          "TS Tx": "TS1",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 0,
+          "Scan List ID": 0,
+          "Default Contact ID": 0,
+          "EAS": "OFF",
+          "Bandwidth": "25KHz",
+          "Tone Type Tx": "CTCSS",
+          "Tone Tx": "88.5",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -2053,7 +2046,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -2083,7 +2077,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -2113,7 +2108,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -2143,7 +2139,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -2173,7 +2170,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -2203,7 +2201,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -2233,7 +2232,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -2263,7 +2263,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -2293,7 +2294,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -2323,7 +2325,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -2353,7 +2356,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -2383,7 +2387,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -2413,7 +2418,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -2443,7 +2449,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -2473,7 +2480,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -2503,7 +2511,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 17,
@@ -2533,7 +2542,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 18,
@@ -2563,7 +2573,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 19,
@@ -2593,7 +2604,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 20,
@@ -2623,7 +2635,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 21,
@@ -2653,7 +2666,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -2689,7 +2703,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -2719,7 +2734,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -2749,7 +2765,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -2779,7 +2796,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -2809,7 +2827,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -2839,7 +2858,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -2869,7 +2889,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -2899,7 +2920,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -2929,7 +2951,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -2959,7 +2982,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -2989,7 +3013,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -3019,7 +3044,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -3049,7 +3075,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -3079,7 +3106,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -3109,7 +3137,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -3139,7 +3168,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 17,
@@ -3169,7 +3199,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 18,
@@ -3199,7 +3230,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 19,
@@ -3229,7 +3261,8 @@
           "Tone Rx": "0",
           "APRS Channel": 1,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 20,
@@ -3259,7 +3292,8 @@
           "Tone Rx": "0",
           "APRS Channel": 1,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 21,
@@ -3289,7 +3323,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -3325,7 +3360,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -3355,7 +3391,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -3385,7 +3422,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -3415,7 +3453,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -3445,7 +3484,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -3475,7 +3515,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -3505,7 +3546,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -3535,7 +3577,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -3565,7 +3608,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -3595,7 +3639,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -3625,7 +3670,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -3655,7 +3701,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -3685,7 +3732,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -3715,7 +3763,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -3745,7 +3794,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -3775,7 +3825,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 17,
@@ -3805,7 +3856,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 18,
@@ -3835,7 +3887,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 19,
@@ -3865,7 +3918,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -3901,7 +3955,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -3931,7 +3986,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -3967,7 +4023,8 @@
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -3997,7 +4054,8 @@
           "Tone Rx": "71.9",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -4027,7 +4085,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -4057,7 +4116,8 @@
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -4087,7 +4147,8 @@
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -4117,7 +4178,8 @@
           "Tone Rx": "0",
           "APRS Channel": 9,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -4147,7 +4209,8 @@
           "Tone Rx": "88.5",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -4183,7 +4246,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -4213,7 +4277,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -4249,7 +4314,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -4279,7 +4345,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     },
@@ -4315,7 +4382,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 2,
@@ -4345,7 +4413,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 3,
@@ -4375,7 +4444,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 4,
@@ -4405,7 +4475,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 5,
@@ -4435,7 +4506,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 6,
@@ -4465,7 +4537,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 7,
@@ -4495,7 +4568,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 8,
@@ -4525,7 +4599,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 9,
@@ -4555,7 +4630,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 10,
@@ -4585,7 +4661,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 11,
@@ -4615,7 +4692,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 12,
@@ -4645,7 +4723,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 13,
@@ -4675,7 +4754,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 14,
@@ -4705,7 +4785,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 15,
@@ -4735,7 +4816,8 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
         },
         {
           "ID": 16,
@@ -4765,7 +4847,107 @@
           "Tone Rx": "0",
           "APRS Channel": 0,
           "Relay Monitor": "OFF",
-          "Relay Mode": "OFF"
+          "Relay Mode": "OFF",
+          "Encryption": 0
+        }
+      ]
+    },
+    {
+      "ID": 11,
+      "Name": "OpenGD77",
+      "Channels": [
+        {
+          "ID": 1,
+          "Type": "DIGITAL",
+          "Name": "77 Echo",
+          "Rx Freq": 440000000,
+          "Tx Freq": 440000000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS1",
+          "TS Tx": "TS1",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 4,
+          "Scan List ID": 0,
+          "Default Contact ID": 1,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF",
+          "Encryption": 0
+        },
+        {
+          "ID": 2,
+          "Type": "DIGITAL",
+          "Name": "77 NA",
+          "Rx Freq": 440000000,
+          "Tx Freq": 440000000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS1",
+          "TS Tx": "TS1",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 5,
+          "Scan List ID": 0,
+          "Default Contact ID": 3,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF",
+          "Encryption": 0
+        },
+        {
+          "ID": 3,
+          "Type": "DIGITAL",
+          "Name": "77 US",
+          "Rx Freq": 440000000,
+          "Tx Freq": 440000000,
+          "Tx Power": "LOW",
+          "Rx only": "OFF",
+          "Alarm": "OFF",
+          "Prompt": "OFF",
+          "PCT": "PATCS",
+          "TS Rx": "TS1",
+          "TS Tx": "TS1",
+          "RX CC": 1,
+          "TX CC": 1,
+          "MSG Type": "UNCONFIRMED",
+          "TX Policy": "IMPOLITE",
+          "Group call list": 19,
+          "Scan List ID": 0,
+          "Default Contact ID": 12,
+          "EAS": "OFF",
+          "Bandwidth": "12.5KHz",
+          "Tone Type Tx": "OFF",
+          "Tone Tx": "0",
+          "Tone Type Rx": "OFF",
+          "Tone Rx": "0",
+          "APRS Channel": 0,
+          "Relay Monitor": "OFF",
+          "Relay Mode": "OFF",
+          "Encryption": 0
         }
       ]
     }
