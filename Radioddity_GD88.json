@@ -5,7 +5,7 @@
     "Model Number": "5.Jun 30 2022F1",
     "FW Version": "B49E.D66.EOPSAB.017.May 10 2024",
     "Frequency range": "F136-480",
-    "Update date": "18/01/2025 09:45",
+    "Update date": "03/03/2025 15:37",
     "Firmware ID": "DRS-880plus",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -1457,7 +1457,7 @@
           "Name": "2 M Call",
           "Rx Freq": 146520000,
           "Tx Freq": 146520000,
-          "Tx Power": "LOW",
+          "Tx Power": "HIGH",
           "Rx only": "OFF",
           "Alarm": "ON",
           "Prompt": "ON",
