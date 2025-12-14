@@ -5,7 +5,7 @@
     "Model Number": "DB_25D",
     "FW Version": "909E.D66.EARSAB.018.May 10 2023",
     "Frequency range": "F136-480",
-    "Update date": "05/06/2025 14:13",
+    "Update date": "14/12/2025 07:46",
     "Firmware ID": "DRS-300UV",
     "FrequencyRangeSet": "COMMERCIAL_EUROPE_0"
   },
@@ -2040,7 +2040,7 @@
           "MSG Type": "UNCONFIRMED",
           "TX Policy": "IMPOLITE",
           "Group call list": 0,
-          "Scan List ID": 0,
+          "Scan List ID": 2,
           "Default Contact ID": 0,
           "EAS": "OFF",
           "Bandwidth": "25KHz",
