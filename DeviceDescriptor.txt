@@ -1,0 +1,26 @@
+begin to start Enum_MassStorage_Dev
+fail: GetDriveType() return is not DRIVE_REMOVABLE:3, drive:2
+end to stop Enum_MassStorage_Dev, return value DiskNum is 0
+**********************************************************************
+
+begin to start Enum_MassStorage_Dev
+fail: GetDriveType() return is not DRIVE_REMOVABLE:3, drive:2
+success: GetDriveType() return DRIVE_REMOVABLE, drive:3
+success: CreateFile() return not INVALID_HANDLE_VALUE
+success: GetDisksProperty() return true
+
+
+(
+(
+
+(
+STM     
+microSD Flash   
+1.00
+200364500000
+
+
+(
+end to stop Enum_MassStorage_Dev, return value DiskNum is 1
+**********************************************************************
+
