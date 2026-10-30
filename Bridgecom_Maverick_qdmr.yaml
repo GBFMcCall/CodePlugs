@@ -1,0 +1,3713 @@
+---
+version: 0.15.1
+settings:
+  power: High
+  boot:
+    display: Logo
+    message1: ""
+    message2: ""
+    passwordEnabled: false
+    password: ""
+    defaultChannel: false
+    allowFactoryReset: true
+  audio:
+    squelch: 3
+    dmrSquelch: none
+    micGain: 5
+    fmMicGain: none
+    m17MicGain: none
+    maxSpeakerVolume: 10
+    maxHeadphoneVolume: 10
+    vox: off
+    voxDelay: 0
+    speech: false
+  tone:
+    silent: false
+    keyTone: off
+    smsTone: true
+    ringtone: true
+    bootTone: false
+    bootMelody:
+      bpm: 100
+      melody: ""
+    talkPermit:
+      - None
+    callStart:
+      - Digital
+    callStartMelody:
+      bpm: 100
+      melody: ""
+    callEnd:
+      - None
+    callEndMelody:
+      bpm: 100
+      melody: ""
+    channelIdle:
+      - All
+    channelIdleMelody:
+      bpm: 100
+      melody: ""
+    callReset: true
+    callResetMelody:
+      bpm: 100
+      melody: ""
+  gnss:
+    fixedPositionEnabled: false
+    fixedPosition: ""
+    systems:
+      - GPS
+    units: Metric
+  dmr:
+    privateCallMatch: true
+    groupCallMatch: true
+    privateCallHangTime: 5 s
+    groupCallHangTime: 3 s
+    sendTalkerAlias: false
+    talkerAliasEncoding: Iso8
+    preamble: 100 ms
+radioIDs:
+  []
+contacts:
+  []
+groupLists:
+  []
+channels:
+  - dmr:
+      id: ch1
+      name: RAB OKWtr
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch2
+      name: RAB OK
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch3
+      name: RAB OKE
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch4
+      name: RAB OKTAC
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch5
+      name: RAB OKTlk
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch6
+      name: RAB OK DMR
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch7
+      name: RABEcho
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch8
+      name: RAB NA
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch9
+      name: RAB Dscnt
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch10
+      name: RAB DMR
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch11
+      name: RAB Emcom
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch12
+      name: RAB Ares
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch13
+      name: RAB RedAm
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch14
+      name: RAB Tac1
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch15
+      name: RAB Tac2
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch16
+      name: RAB Tac3
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch17
+      name: RAB US
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch18
+      name: RAB APRS
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch19
+      name: RAB World Wide
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - fm:
+      id: ch20
+      name: 2 M Call
+      rxFrequency: 146.52 MHz
+      txFrequency: 146.52 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch21
+      name: 70 CM Call
+      rxFrequency: 446 MHz
+      txFrequency: 446 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch22
+      name: 2 M Alt
+      rxFrequency: 146.42 MHz
+      txFrequency: 146.42 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch23
+      name: 2 M Alt2
+      rxFrequency: 146.55 MHz
+      txFrequency: 146.55 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch24
+      name: 70 CM Alt
+      rxFrequency: 446.03 MHz
+      txFrequency: 446.03 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch25
+      name: APRS Transmit
+      rxFrequency: 146.52 MHz
+      txFrequency: 146.52 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone: ~
+      txTone: ~
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch26
+      name: APRS Receive
+      rxFrequency: 144.39 MHz
+      txFrequency: 144.39 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch27
+      name: APRS-Mute
+      rxFrequency: 144.39 MHz
+      txFrequency: 144.39 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch28
+      name: Suprlnk Tul 41st
+      rxFrequency: 443.85 MHz
+      txFrequency: 448.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch29
+      name: Suprlnk Mounds
+      rxFrequency: 444.6 MHz
+      txFrequency: 449.6 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch30
+      name: Suprlnk Bartlsvl
+      rxFrequency: 444.425 MHz
+      txFrequency: 449.425 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch31
+      name: KI5EGH
+      rxFrequency: 145.43 MHz
+      txFrequency: 144.83 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch32
+      name: WT5EOC
+      rxFrequency: 146.835 MHz
+      txFrequency: 146.235 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch33
+      name: WA5LVT
+      rxFrequency: 146.88 MHz
+      txFrequency: 146.28 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch34
+      name: W5DRZ
+      rxFrequency: 146.91 MHz
+      txFrequency: 146.28 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch35
+      name: N5DRW
+      rxFrequency: 147.12 MHz
+      txFrequency: 147.72 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch36
+      name: WB5NJU
+      rxFrequency: 147.39 MHz
+      txFrequency: 147.99 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch37
+      name: KI5EGH-UHF
+      rxFrequency: 442.55 MHz
+      txFrequency: 447.55 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch38
+      name: W5IAS
+      rxFrequency: 443 MHz
+      txFrequency: 448 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch39
+      name: KD5FMU
+      rxFrequency: 444.175 MHz
+      txFrequency: 449.175 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch40
+      name: W5IAS
+      rxFrequency: 145.11 MHz
+      txFrequency: 144.51 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - dmr:
+      id: ch41
+      name: LVT OKWtr
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch42
+      name: LVT Echo
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch43
+      name: LVT NA
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch44
+      name: LVT OKTac
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch45
+      name: LVT NoAm
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch46
+      name: LVT OK
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch47
+      name: LVT OK Est
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch48
+      name: LVT Dscnt
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch49
+      name: LVT APRS
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch50
+      name: LVT NAT1
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch51
+      name: LVT NAT2
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch52
+      name: LVT NAT3
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch53
+      name: LVT USABrg
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch54
+      name: LVT DMRCmp
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch55
+      name: LVT RedAm
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch56
+      name: LVT AresEm
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch57
+      name: LVT Parrot
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch58
+      name: LVT OKTlk
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch59
+      name: LVT OK DMR
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch60
+      name: LVT WW
+      rxFrequency: 442.475 MHz
+      txFrequency: 447.475 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch61
+      name: Pi OKWtr
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch62
+      name: Pi OK DMR
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch63
+      name: PI OK
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch64
+      name: PI Echo
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch65
+      name: PI NA
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch66
+      name: Pi TGIF Tulsa
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS2
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch67
+      name: PI USBrdg
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch68
+      name: PI DSCNT
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch69
+      name: PI Parrot
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch70
+      name: Pi OKE
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch71
+      name: Pi NATac1
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch72
+      name: Pi NATac2
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch73
+      name: Pi NATac3
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch74
+      name: Pi DMR
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch75
+      name: Pi EmCom
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch76
+      name: Pi RedAm
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch77
+      name: Pi ARES
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch78
+      name: PI OKTlk
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch79
+      name: Pi APRS
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch80
+      name: Pi TGIF MothrShp
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS2
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch81
+      name: Pi TGIF EC
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS2
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch82
+      name: Pi WW
+      rxFrequency: 449 MHz
+      txFrequency: 438.5 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Low
+  - dmr:
+      id: ch83
+      name: LVTc Echo
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch84
+      name: LVTc NA
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch85
+      name: LVTc OK
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch86
+      name: LVTc OKE
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch87
+      name: LVTc OKWR
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch88
+      name: LVTc Emcom
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch89
+      name: LVTc OKTac
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch90
+      name: LVTc Dscnt
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch91
+      name: LVTc APRS
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch92
+      name: LVTc NATc1
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch93
+      name: LVTc NATc2
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch94
+      name: LVTc NATc3
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch95
+      name: Channel 3
+      rxFrequency: 440 MHz
+      txFrequency: 440 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: High
+  - dmr:
+      id: ch96
+      name: LVTc USA
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch97
+      name: LVTc DMR
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch98
+      name: LVTc RedAm
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch99
+      name: LVTc Ares
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch100
+      name: LVTc OKTlk
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch101
+      name: LVTc OKDMR
+      rxFrequency: 442.1625 MHz
+      txFrequency: 447.1625 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - fm:
+      id: ch102
+      name: VoiceNorth
+      rxFrequency: 145.11 MHz
+      txFrequency: 144.51 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch103
+      name: VoiceSouth
+      rxFrequency: 444.075 MHz
+      txFrequency: 449.075 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch104
+      name: SAG
+      rxFrequency: 146.55 MHz
+      txFrequency: 146.55 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch105
+      name: BU_North
+      rxFrequency: 145.43 MHz
+      txFrequency: 144.83 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch106
+      name: BU_South
+      rxFrequency: 443.75 MHz
+      txFrequency: 448.75 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch107
+      name: APRS
+      rxFrequency: 144.39 MHz
+      txFrequency: 144.39 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - fm:
+      id: ch108
+      name: Command
+      rxFrequency: 146.94 MHz
+      txFrequency: 144.34 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      squelch: !<!default> ""
+      admit: Always
+      rxTone:
+        ctcss: 88.5 Hz
+      txTone:
+        ctcss: 88.5 Hz
+      bandwidth: Narrow
+      extended:
+        talkaround: false
+        reverseBurst: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        rxCustomCTCSS: false
+        txCustomCTCSS: false
+        customCTCSS: 131.80000000000001
+        squelchMode: Carrier
+        scramblerFrequency: 0 Hz
+      power: Max
+  - dmr:
+      id: ch109
+      name: Prs Echo
+      rxFrequency: 444.175 MHz
+      txFrequency: 449.175 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch110
+      name: Prs OKWtr
+      rxFrequency: 444.175 MHz
+      txFrequency: 449.175 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 2
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch111
+      name: Man Echo
+      rxFrequency: 444.45 MHz
+      txFrequency: 449.45 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch112
+      name: Man OKWtr
+      rxFrequency: 444.45 MHz
+      txFrequency: 449.45 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch113
+      name: CLR OKWtr
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch114
+      name: CLR OK
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch115
+      name: CLR OKE
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch116
+      name: CLR OKDMR
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch117
+      name: CLR OKTac
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch118
+      name: CLR NA
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch119
+      name: CLR NATac1
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch120
+      name: CLR NATac2
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch121
+      name: CLR NATac3
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch122
+      name: CLR USA
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch123
+      name: CLR DMR
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch124
+      name: CLR EmComm
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch125
+      name: Clr RedAm
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch126
+      name: CLR ARES
+      rxFrequency: 444.35 MHz
+      txFrequency: 449.35 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch127
+      name: Bix OKWtr
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+  - dmr:
+      id: ch128
+      name: Bix OK
+      rxFrequency: 444.85 MHz
+      txFrequency: 449.85 MHz
+      timeout: !<!default> ""
+      rxOnly: false
+      vox: !<!default> ""
+      admit: Always
+      colorCode: 1
+      timeSlot: TS1
+      radioId: !<!default> ""
+      extended:
+        talkaround: false
+        privateCallConfirm: false
+        sms: true
+        smsConfirm: false
+        dataConfirm: true
+        dcdm: false
+        loneWorker: false
+      anytone:
+        frequencyCorrection: 0
+        handsFree: false
+        aprsPTT: Off
+        adaptiveTDMA: false
+        throughMode: false
+        crc: true
+      power: Max
+zones:
+  - id: zone1
+    name: Zone 1
+    A: [ch1, ch2, ch3, ch4, ch5, ch6, ch7, ch8, ch9, ch11, ch12, ch13, ch14, ch15, ch16, ch17, ch18, ch19, ch10]
+    B: []
+  - id: zone2
+    name: Zone 2
+    A: [ch20, ch21, ch22, ch23, ch24, ch25, ch26, ch27, ch28, ch29, ch30, ch31, ch32, ch33, ch34, ch35, ch36, ch37, ch38, ch39, ch40]
+    B: []
+  - id: zone3
+    name: Zone 3
+    A: [ch41, ch42, ch43, ch44, ch45, ch46, ch47, ch48, ch49, ch50, ch51, ch52, ch53, ch54, ch55, ch56, ch57, ch58, ch59, ch60]
+    B: []
+  - id: zone4
+    name: Zone 4
+    A: [ch61, ch62, ch63, ch64, ch65, ch67, ch68, ch69, ch70, ch71, ch72, ch73, ch74, ch75, ch76, ch77, ch78, ch79, ch82, ch66, ch80, ch81]
+    B: []
+  - id: zone5
+    name: Zone 5
+    A: [ch83, ch84, ch85, ch86, ch87, ch88, ch89, ch90, ch91, ch92, ch93, ch94, ch96, ch97, ch98, ch99, ch100, ch101]
+    B: []
+  - id: zone6
+    name: Zone 6
+    A: [ch102, ch103, ch104, ch105, ch106, ch107, ch108]
+    B: []
+  - id: zone7
+    name: Zone 7
+    A: [ch109, ch110]
+    B: []
+  - id: zone8
+    name: Zone 8
+    A: [ch111, ch112]
+    B: []
+  - id: zone9
+    name: Zone 9
+    A: [ch113, ch114, ch115, ch116, ch117, ch118, ch119, ch120, ch121, ch122, ch123, ch124, ch125, ch126]
+    B: []
+  - id: zone10
+    name: Zone 10
+    A: [ch127, ch128]
+    B: []
+  - id: zone11
+    name: Zone 11
+    A: []
+    B: []
+  - id: zone12
+    name: Zone 12
+    A: []
+    B: []
+commercial:
+  encryptionKeys:
+    []
+sms:
+  format: Motorola
+  templates:
+    []
+...
